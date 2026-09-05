@@ -1,0 +1,2048 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0819.2015                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='31bb3807bb697dd681d913538cbded13aad1ad8461a6b6a2b8b35b86d952dc83' _.fcp.WorkbookFingerprinting.true...creator-author-id='31bb3807bb697dd681d913538cbded13aad1ad8461a6b6a2b8b35b86d952dc83' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='31bb3807bb697dd681d913538cbded13aad1ad8461a6b6a2b8b35b86d952dc83' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='31bb3807bb697dd681d913538cbded13aad1ad8461a6b6a2b8b35b86d952dc83' original-version='18.1' source-build='2026.2.2 (20262.26.0819.2015)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='SteamDB_TopFiveGames' inline='true' name='federated.1r4zgve1n3c27t1f43rri1j7lp6p' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='SteamDB_TopFiveGames' name='textscan.0bpm0kk0tb2h2j1gvflxn07jrzae'>
+            <connection class='textscan' directory='C:/Users/Mason/Desktop/Python Projects/Analyzing_SteamDB' filename='SteamDB_TopFiveGames.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0bpm0kk0tb2h2j1gvflxn07jrzae' name='SteamDB_TopFiveGames.csv' table='[SteamDB_TopFiveGames#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='app_id' ordinal='1' />
+            <column datatype='string' name='game_name' ordinal='2' />
+            <column datatype='string' name='developer' ordinal='3' />
+            <column datatype='integer' name='release_year' ordinal='4' />
+            <column datatype='real' name='Positive_reviews' ordinal='5' />
+            <column datatype='real' name='Negative_reviews' ordinal='6' />
+            <column datatype='integer' name='24-hour peak' ordinal='7' />
+            <column datatype='integer' name='all time peak' ordinal='8' />
+            <column datatype='integer' name='gain_may' ordinal='9' />
+            <column datatype='integer' name='gain_june' ordinal='10' />
+            <column datatype='integer' name='gain_july' ordinal='11' />
+            <column datatype='integer' name='gain_30_days' ordinal='12' />
+            <column datatype='real' name='gain1%' ordinal='13' />
+            <column datatype='real' name='gain2%' ordinal='14' />
+            <column datatype='real' name='gain3%' ordinal='15' />
+            <column datatype='real' name='gain4%' ordinal='16' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[SteamDB_TopFiveGames.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[SteamDB_TopFiveGames.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>app_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[app_id]</local-name>
+            <parent-name>[SteamDB_TopFiveGames.csv]</parent-name>
+            <remote-alias>app_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>game_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[game_name]</local-name>
+            <parent-name>[SteamDB_TopFiveGames.csv]</parent-name>
+            <remote-alias>game_name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>developer</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[developer]</local-name>
+            <parent-name>[SteamDB_TopFiveGames.csv]</parent-name>
+            <remote-alias>developer</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>release_year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[release_year]</local-name>
+            <parent-name>[SteamDB_TopFiveGames.csv]</parent-name>
+            <remote-alias>release_year</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Positive_reviews</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Positive_reviews]</local-name>
+            <parent-name>[SteamDB_TopFiveGames.csv]</parent-name>
+            <remote-alias>Positive_reviews</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Negative_reviews</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Negative_reviews]</local-name>
+            <parent-name>[SteamDB_TopFiveGames.csv]</parent-name>
+            <remote-alias>Negative_reviews</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>24-hour peak</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[24-hour peak]</local-name>
+            <parent-name>[SteamDB_TopFiveGames.csv]</parent-name>
+            <remote-alias>24-hour peak</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>all time peak</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[all time peak]</local-name>
+            <parent-name>[SteamDB_TopFiveGames.csv]</parent-name>
+            <remote-alias>all time peak</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gain_may</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gain_may]</local-name>
+            <parent-name>[SteamDB_TopFiveGames.csv]</parent-name>
+            <remote-alias>gain_may</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gain_june</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gain_june]</local-name>
+            <parent-name>[SteamDB_TopFiveGames.csv]</parent-name>
+            <remote-alias>gain_june</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gain_july</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gain_july]</local-name>
+            <parent-name>[SteamDB_TopFiveGames.csv]</parent-name>
+            <remote-alias>gain_july</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gain_30_days</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gain_30_days]</local-name>
+            <parent-name>[SteamDB_TopFiveGames.csv]</parent-name>
+            <remote-alias>gain_30_days</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gain1%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gain1%]</local-name>
+            <parent-name>[SteamDB_TopFiveGames.csv]</parent-name>
+            <remote-alias>gain1%</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gain2%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gain2%]</local-name>
+            <parent-name>[SteamDB_TopFiveGames.csv]</parent-name>
+            <remote-alias>gain2%</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gain3%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gain3%]</local-name>
+            <parent-name>[SteamDB_TopFiveGames.csv]</parent-name>
+            <remote-alias>gain3%</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gain4%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gain4%]</local-name>
+            <parent-name>[SteamDB_TopFiveGames.csv]</parent-name>
+            <remote-alias>gain4%</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='24-Hour Peak' datatype='integer' name='[24-hour peak]' role='measure' type='quantitative' />
+      <column caption='Negative reviews' datatype='real' name='[Negative_reviews]' role='measure' type='quantitative' />
+      <column caption='Positive reviews' datatype='real' name='[Positive_reviews]' role='measure' type='quantitative' />
+      <column caption='SteamDB_TopFiveGames.csv' datatype='table' name='[__tableau_internal_object_id__].[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]' role='measure' type='quantitative' />
+      <column caption='All Time Peak' datatype='integer' name='[all time peak]' role='measure' type='quantitative' />
+      <column caption='App Id' datatype='integer' name='[app_id]' role='dimension' type='ordinal' />
+      <column caption='Developer' datatype='string' name='[developer]' role='dimension' type='nominal' />
+      <column caption='Gain1%' datatype='real' name='[gain1%]' role='measure' type='quantitative' />
+      <column caption='Gain2%' datatype='real' name='[gain2%]' role='measure' type='quantitative' />
+      <column caption='Gain3%' datatype='real' name='[gain3%]' role='measure' type='quantitative' />
+      <column caption='Gain4%' datatype='real' name='[gain4%]' role='measure' type='quantitative' />
+      <column caption='Gain 30 Days' datatype='integer' name='[gain_30_days]' role='measure' type='quantitative' />
+      <column caption='Gain July' datatype='integer' name='[gain_july]' role='measure' type='quantitative' />
+      <column caption='Gain June' datatype='integer' name='[gain_june]' role='measure' type='quantitative' />
+      <column caption='Gain May' datatype='integer' name='[gain_may]' role='measure' type='quantitative' />
+      <column caption='Game Name' datatype='string' name='[game_name]' role='dimension' type='nominal' />
+      <column caption='Release Year' datatype='integer' name='[release_year]' role='dimension' type='quantitative' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Mason/AppData/Local/Temp/TableauTemp/#TableauTemp_1heuzi708nyonq1gf6cbt0dog1yq.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/05/2026 04:08:31 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>SteamDB_TopFiveGames.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>app_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[app_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>app_id</remote-alias>
+              <ordinal>1</ordinal>
+              <family>SteamDB_TopFiveGames.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>game_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[game_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>game_name</remote-alias>
+              <ordinal>2</ordinal>
+              <family>SteamDB_TopFiveGames.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>developer</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[developer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>developer</remote-alias>
+              <ordinal>3</ordinal>
+              <family>SteamDB_TopFiveGames.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>release_year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[release_year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>release_year</remote-alias>
+              <ordinal>4</ordinal>
+              <family>SteamDB_TopFiveGames.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Positive_reviews</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Positive_reviews]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Positive_reviews</remote-alias>
+              <ordinal>5</ordinal>
+              <family>SteamDB_TopFiveGames.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Negative_reviews</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Negative_reviews]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Negative_reviews</remote-alias>
+              <ordinal>6</ordinal>
+              <family>SteamDB_TopFiveGames.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>24-hour peak</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[24-hour peak]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>24-hour peak</remote-alias>
+              <ordinal>7</ordinal>
+              <family>SteamDB_TopFiveGames.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>all time peak</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[all time peak]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>all time peak</remote-alias>
+              <ordinal>8</ordinal>
+              <family>SteamDB_TopFiveGames.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>gain_may</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[gain_may]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>gain_may</remote-alias>
+              <ordinal>9</ordinal>
+              <family>SteamDB_TopFiveGames.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>gain_june</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[gain_june]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>gain_june</remote-alias>
+              <ordinal>10</ordinal>
+              <family>SteamDB_TopFiveGames.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>gain_july</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[gain_july]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>gain_july</remote-alias>
+              <ordinal>11</ordinal>
+              <family>SteamDB_TopFiveGames.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>gain_30_days</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[gain_30_days]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>gain_30_days</remote-alias>
+              <ordinal>12</ordinal>
+              <family>SteamDB_TopFiveGames.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>gain1%</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[gain1%]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>gain1%</remote-alias>
+              <ordinal>13</ordinal>
+              <family>SteamDB_TopFiveGames.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>gain2%</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[gain2%]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>gain2%</remote-alias>
+              <ordinal>14</ordinal>
+              <family>SteamDB_TopFiveGames.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>gain3%</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[gain3%]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>gain3%</remote-alias>
+              <ordinal>15</ordinal>
+              <family>SteamDB_TopFiveGames.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>gain4%</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[gain4%]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>gain4%</remote-alias>
+              <ordinal>16</ordinal>
+              <family>SteamDB_TopFiveGames.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout common-percentage='1' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' user-set-layout-v2='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='SteamDB_TopFiveGames.csv' id='SteamDB_TopFiveGames.csv_3901BAE7C6244692A63F1BE8D69815CF'>
+            <properties context=''>
+              <relation connection='textscan.0bpm0kk0tb2h2j1gvflxn07jrzae' name='SteamDB_TopFiveGames.csv' table='[SteamDB_TopFiveGames#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='app_id' ordinal='1' />
+                  <column datatype='string' name='game_name' ordinal='2' />
+                  <column datatype='string' name='developer' ordinal='3' />
+                  <column datatype='integer' name='release_year' ordinal='4' />
+                  <column datatype='real' name='Positive_reviews' ordinal='5' />
+                  <column datatype='real' name='Negative_reviews' ordinal='6' />
+                  <column datatype='integer' name='24-hour peak' ordinal='7' />
+                  <column datatype='integer' name='all time peak' ordinal='8' />
+                  <column datatype='integer' name='gain_may' ordinal='9' />
+                  <column datatype='integer' name='gain_june' ordinal='10' />
+                  <column datatype='integer' name='gain_july' ordinal='11' />
+                  <column datatype='integer' name='gain_30_days' ordinal='12' />
+                  <column datatype='real' name='gain1%' ordinal='13' />
+                  <column datatype='real' name='gain2%' ordinal='14' />
+                  <column datatype='real' name='gain3%' ordinal='15' />
+                  <column datatype='real' name='gain4%' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='SteamDB_sp_analysis' inline='true' name='federated.14hzygy1cfbdfy1gelbwc0piiqnb' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='SteamDB_sp_analysis' name='textscan.1yzp35v1hgzii71997k9n0i5m9c3'>
+            <connection class='textscan' directory='C:/Users/Mason/Desktop/Python Projects/Analyzing_SteamDB' filename='SteamDB_sp_analysis.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1yzp35v1hgzii71997k9n0i5m9c3' name='SteamDB_sp_analysis.csv' table='[SteamDB_sp_analysis#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='app_id' ordinal='1' />
+            <column datatype='string' name='game_title' ordinal='2' />
+            <column datatype='string' name='developer' ordinal='3' />
+            <column datatype='integer' name='year' ordinal='4' />
+            <column datatype='integer' name='all-time peak' ordinal='5' />
+            <column datatype='integer' name='24-hour peak' ordinal='6' />
+            <column datatype='real' name='positive reviews' ordinal='7' />
+            <column datatype='real' name='negative reviews' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[SteamDB_sp_analysis.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[SteamDB_sp_analysis.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_sp_analysis.csv_0BDF35FD2CF647568CE11A9CAE3DFCAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>app_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[app_id]</local-name>
+            <parent-name>[SteamDB_sp_analysis.csv]</parent-name>
+            <remote-alias>app_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_sp_analysis.csv_0BDF35FD2CF647568CE11A9CAE3DFCAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>game_title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[game_title]</local-name>
+            <parent-name>[SteamDB_sp_analysis.csv]</parent-name>
+            <remote-alias>game_title</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[SteamDB_sp_analysis.csv_0BDF35FD2CF647568CE11A9CAE3DFCAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>developer</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[developer]</local-name>
+            <parent-name>[SteamDB_sp_analysis.csv]</parent-name>
+            <remote-alias>developer</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[SteamDB_sp_analysis.csv_0BDF35FD2CF647568CE11A9CAE3DFCAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[SteamDB_sp_analysis.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_sp_analysis.csv_0BDF35FD2CF647568CE11A9CAE3DFCAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>all-time peak</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[all-time peak]</local-name>
+            <parent-name>[SteamDB_sp_analysis.csv]</parent-name>
+            <remote-alias>all-time peak</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_sp_analysis.csv_0BDF35FD2CF647568CE11A9CAE3DFCAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>24-hour peak</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[24-hour peak]</local-name>
+            <parent-name>[SteamDB_sp_analysis.csv]</parent-name>
+            <remote-alias>24-hour peak</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_sp_analysis.csv_0BDF35FD2CF647568CE11A9CAE3DFCAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>positive reviews</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[positive reviews]</local-name>
+            <parent-name>[SteamDB_sp_analysis.csv]</parent-name>
+            <remote-alias>positive reviews</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_sp_analysis.csv_0BDF35FD2CF647568CE11A9CAE3DFCAB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>negative reviews</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[negative reviews]</local-name>
+            <parent-name>[SteamDB_sp_analysis.csv]</parent-name>
+            <remote-alias>negative reviews</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[SteamDB_sp_analysis.csv_0BDF35FD2CF647568CE11A9CAE3DFCAB]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='24-Hour Peak' datatype='integer' name='[24-hour peak]' role='measure' type='quantitative' />
+      <column caption='SteamDB_sp_analysis.csv' datatype='table' name='[__tableau_internal_object_id__].[SteamDB_sp_analysis.csv_0BDF35FD2CF647568CE11A9CAE3DFCAB]' role='measure' type='quantitative' />
+      <column caption='All-Time Peak' datatype='integer' name='[all-time peak]' role='measure' type='quantitative' />
+      <column caption='App Id' datatype='integer' name='[app_id]' role='dimension' type='ordinal' />
+      <column caption='Developer' datatype='string' name='[developer]' role='dimension' type='nominal' />
+      <column caption='Game Title' datatype='string' name='[game_title]' role='dimension' type='nominal' />
+      <column caption='Negative Reviews' datatype='real' name='[negative reviews]' role='measure' type='quantitative' />
+      <column caption='Positive Reviews' datatype='real' name='[positive reviews]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Mason/AppData/Local/Temp/TableauTemp/#TableauTemp_1oz12xx1iypoxk1bcewjf05w99xi.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/05/2026 04:09:06 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>SteamDB_sp_analysis.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>app_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[app_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>app_id</remote-alias>
+              <ordinal>1</ordinal>
+              <family>SteamDB_sp_analysis.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>game_title</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[game_title]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>game_title</remote-alias>
+              <ordinal>2</ordinal>
+              <family>SteamDB_sp_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>developer</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[developer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>developer</remote-alias>
+              <ordinal>3</ordinal>
+              <family>SteamDB_sp_analysis.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>year</remote-alias>
+              <ordinal>4</ordinal>
+              <family>SteamDB_sp_analysis.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>all-time peak</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[all-time peak]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>all-time peak</remote-alias>
+              <ordinal>5</ordinal>
+              <family>SteamDB_sp_analysis.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>24-hour peak</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[24-hour peak]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>24-hour peak</remote-alias>
+              <ordinal>6</ordinal>
+              <family>SteamDB_sp_analysis.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>positive reviews</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[positive reviews]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>positive reviews</remote-alias>
+              <ordinal>7</ordinal>
+              <family>SteamDB_sp_analysis.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>negative reviews</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[negative reviews]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>negative reviews</remote-alias>
+              <ordinal>8</ordinal>
+              <family>SteamDB_sp_analysis.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='SteamDB_sp_analysis.csv' id='SteamDB_sp_analysis.csv_0BDF35FD2CF647568CE11A9CAE3DFCAB'>
+            <properties context=''>
+              <relation connection='textscan.1yzp35v1hgzii71997k9n0i5m9c3' name='SteamDB_sp_analysis.csv' table='[SteamDB_sp_analysis#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='app_id' ordinal='1' />
+                  <column datatype='string' name='game_title' ordinal='2' />
+                  <column datatype='string' name='developer' ordinal='3' />
+                  <column datatype='integer' name='year' ordinal='4' />
+                  <column datatype='integer' name='all-time peak' ordinal='5' />
+                  <column datatype='integer' name='24-hour peak' ordinal='6' />
+                  <column datatype='real' name='positive reviews' ordinal='7' />
+                  <column datatype='real' name='negative reviews' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='favorite_games_hltb' inline='true' name='federated.01rn30a0tc08it16bm4yz0yni6jd' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='favorite_games_hltb' name='textscan.14gz9ab0ao85qd1e794kl17aug5r'>
+            <connection class='textscan' directory='C:/Users/Mason/Desktop/Python Projects/Analyzing_SteamDB' filename='favorite_games_hltb.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.14gz9ab0ao85qd1e794kl17aug5r' name='favorite_games_hltb.csv' table='[favorite_games_hltb#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='app_id' ordinal='1' />
+            <column datatype='string' name='Game Title' ordinal='2' />
+            <column datatype='string' name='Developer' ordinal='3' />
+            <column datatype='real' name='HLTB' ordinal='4' />
+            <column datatype='real' name='Main Story' ordinal='5' />
+            <column datatype='real' name='Main + Sides' ordinal='6' />
+            <column datatype='real' name='Completionist' ordinal='7' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[favorite_games_hltb.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[favorite_games_hltb.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[favorite_games_hltb.csv_1F07C2D432FC42A2A7B42C007FA1FC85]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>app_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[app_id]</local-name>
+            <parent-name>[favorite_games_hltb.csv]</parent-name>
+            <remote-alias>app_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[favorite_games_hltb.csv_1F07C2D432FC42A2A7B42C007FA1FC85]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Game Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Game Title]</local-name>
+            <parent-name>[favorite_games_hltb.csv]</parent-name>
+            <remote-alias>Game Title</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[favorite_games_hltb.csv_1F07C2D432FC42A2A7B42C007FA1FC85]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Developer</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Developer]</local-name>
+            <parent-name>[favorite_games_hltb.csv]</parent-name>
+            <remote-alias>Developer</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[favorite_games_hltb.csv_1F07C2D432FC42A2A7B42C007FA1FC85]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HLTB</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HLTB]</local-name>
+            <parent-name>[favorite_games_hltb.csv]</parent-name>
+            <remote-alias>HLTB</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[favorite_games_hltb.csv_1F07C2D432FC42A2A7B42C007FA1FC85]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Main Story</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Main Story]</local-name>
+            <parent-name>[favorite_games_hltb.csv]</parent-name>
+            <remote-alias>Main Story</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[favorite_games_hltb.csv_1F07C2D432FC42A2A7B42C007FA1FC85]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Main + Sides</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Main + Sides]</local-name>
+            <parent-name>[favorite_games_hltb.csv]</parent-name>
+            <remote-alias>Main + Sides</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[favorite_games_hltb.csv_1F07C2D432FC42A2A7B42C007FA1FC85]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Completionist</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Completionist]</local-name>
+            <parent-name>[favorite_games_hltb.csv]</parent-name>
+            <remote-alias>Completionist</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[favorite_games_hltb.csv_1F07C2D432FC42A2A7B42C007FA1FC85]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Game Title]' role='dimension' type='nominal' />
+      <column caption='Hltb' datatype='real' name='[HLTB]' role='measure' type='quantitative' />
+      <column caption='favorite_games_hltb.csv' datatype='table' name='[__tableau_internal_object_id__].[favorite_games_hltb.csv_1F07C2D432FC42A2A7B42C007FA1FC85]' role='measure' type='quantitative' />
+      <column caption='App Id' datatype='integer' name='[app_id]' role='dimension' type='ordinal' />
+      <group caption='Action (Game Title)' hidden='true' name='[Action (Game Title)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Game Title]' />
+        </groupfilter>
+      </group>
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Mason/AppData/Local/Temp/TableauTemp/#TableauTemp_1bvoprz0bkvuzl173ok6u01293ci.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/05/2026 04:13:17 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>favorite_games_hltb.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[favorite_games_hltb.csv_1F07C2D432FC42A2A7B42C007FA1FC85]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>app_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[app_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>app_id</remote-alias>
+              <ordinal>1</ordinal>
+              <family>favorite_games_hltb.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[favorite_games_hltb.csv_1F07C2D432FC42A2A7B42C007FA1FC85]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Game Title</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Game Title]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Game Title</remote-alias>
+              <ordinal>2</ordinal>
+              <family>favorite_games_hltb.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[favorite_games_hltb.csv_1F07C2D432FC42A2A7B42C007FA1FC85]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Developer</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Developer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Developer</remote-alias>
+              <ordinal>3</ordinal>
+              <family>favorite_games_hltb.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[favorite_games_hltb.csv_1F07C2D432FC42A2A7B42C007FA1FC85]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>HLTB</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[HLTB]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>HLTB</remote-alias>
+              <ordinal>4</ordinal>
+              <family>favorite_games_hltb.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[favorite_games_hltb.csv_1F07C2D432FC42A2A7B42C007FA1FC85]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Main Story</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Main Story]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Main Story</remote-alias>
+              <ordinal>5</ordinal>
+              <family>favorite_games_hltb.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[favorite_games_hltb.csv_1F07C2D432FC42A2A7B42C007FA1FC85]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Main + Sides</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Main + Sides]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Main + Sides</remote-alias>
+              <ordinal>6</ordinal>
+              <family>favorite_games_hltb.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[favorite_games_hltb.csv_1F07C2D432FC42A2A7B42C007FA1FC85]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Completionist</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Completionist]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Completionist</remote-alias>
+              <ordinal>7</ordinal>
+              <family>favorite_games_hltb.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[favorite_games_hltb.csv_1F07C2D432FC42A2A7B42C007FA1FC85]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='favorite_games_hltb.csv' id='favorite_games_hltb.csv_1F07C2D432FC42A2A7B42C007FA1FC85'>
+            <properties context=''>
+              <relation connection='textscan.14gz9ab0ao85qd1e794kl17aug5r' name='favorite_games_hltb.csv' table='[favorite_games_hltb#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='app_id' ordinal='1' />
+                  <column datatype='string' name='Game Title' ordinal='2' />
+                  <column datatype='string' name='Developer' ordinal='3' />
+                  <column datatype='real' name='HLTB' ordinal='4' />
+                  <column datatype='real' name='Main Story' ordinal='5' />
+                  <column datatype='real' name='Main + Sides' ordinal='6' />
+                  <column datatype='real' name='Completionist' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_1085439DEECD4797B229C9695722A675]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='How Long To Beat' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_B4C7705D3AF4446A881CDF6396FD8BDE]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Detailed of HLTB' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='All Time &amp; 24 Peak'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>24 Hour &amp; All Time Peak&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SteamDB_TopFiveGames' name='federated.1r4zgve1n3c27t1f43rri1j7lp6p' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1r4zgve1n3c27t1f43rri1j7lp6p'>
+            <column caption='24-Hour Peak' datatype='integer' name='[24-hour peak]' role='measure' type='quantitative' />
+            <column caption='All Time Peak' datatype='integer' name='[all time peak]' role='measure' type='quantitative' />
+            <column caption='App Id' datatype='integer' name='[app_id]' role='dimension' type='ordinal' />
+            <column caption='Game Name' datatype='string' name='[game_name]' role='dimension' type='nominal' />
+            <column-instance column='[app_id]' derivation='None' name='[none:app_id:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[game_name]' derivation='None' name='[none:game_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[24-hour peak]' derivation='Sum' name='[sum:24-hour peak:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[all time peak]' derivation='Sum' name='[sum:all time peak:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[none:game_name:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:game_name:nk]' member='&quot;Bongo Cat&quot;' />
+              <groupfilter function='member' level='[none:game_name:nk]' member='&quot;Counter-Strike 2&quot;' />
+              <groupfilter function='member' level='[none:game_name:nk]' member='&quot;Dota 2&quot;' />
+              <groupfilter function='member' level='[none:game_name:nk]' member='&quot;Palworld&quot;' />
+              <groupfilter function='member' level='[none:game_name:nk]' member='&quot;PUBG: Battlegrounds&quot;' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[none:app_id:ok]' direction='DESC' measure-to-sort-by='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:24-hour peak:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[none:game_name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:24-hour peak:qk]' palette='tableau-map-temperatur' type='interpolated' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='div-level' scope='rows' value='10' />
+            <format attr='div-level' scope='cols' value='10' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:24-hour peak:qk]' />
+              <lod column='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:all time peak:qk]' />
+            </encodings>
+            <reference-line axis-column='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:24-hour peak:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='none' probability='95' scope='per-cell' value-column='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:all time peak:qk]' z-order='2' />
+            <reference-line axis-column='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:24-hour peak:qk]' enable-instant-analytics='true' fill-above='true' fill-below='true' formula='average' id='refline1' label-type='none' percentage-bands='true' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:all time peak:qk]' z-order='1'>
+              <reference-line-value percentage='60' />
+              <reference-line-value percentage='80' />
+            </reference-line>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1r4zgve1n3c27t1f43rri1j7lp6p].[none:app_id:ok] / [federated.1r4zgve1n3c27t1f43rri1j7lp6p].[none:game_name:nk])</rows>
+        <cols>[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:24-hour peak:qk]</cols>
+      </table>
+      <simple-id uuid='{175076A4-EB16-4D9D-AC24-DF36CC57B65F}' />
+    </worksheet>
+    <worksheet name='Detailed of HLTB'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Detailed Chart of HLTB </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='favorite_games_hltb' name='federated.01rn30a0tc08it16bm4yz0yni6jd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01rn30a0tc08it16bm4yz0yni6jd'>
+            <column datatype='real' name='[Completionist]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Game Title]' role='dimension' type='nominal' />
+            <column caption='Hltb' datatype='real' name='[HLTB]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Main + Sides]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Main Story]' role='measure' type='quantitative' />
+            <column-instance column='[Game Title]' derivation='None' name='[none:Game Title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Completionist]' derivation='Sum' name='[sum:Completionist:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[HLTB]' derivation='Sum' name='[sum:HLTB:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Main + Sides]' derivation='Sum' name='[sum:Main + Sides:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Main Story]' derivation='Sum' name='[sum:Main Story:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.01rn30a0tc08it16bm4yz0yni6jd].[none:Game Title:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Game Title:nk]' member='&quot;Celeste&quot;' />
+              <groupfilter function='member' level='[none:Game Title:nk]' member='&quot;Pragmata&quot;' />
+              <groupfilter function='member' level='[none:Game Title:nk]' member='&quot;Red Dead Redemption 2&quot;' />
+              <groupfilter function='member' level='[none:Game Title:nk]' member='&quot;Witcher 3&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.01rn30a0tc08it16bm4yz0yni6jd].[none:Game Title:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.01rn30a0tc08it16bm4yz0yni6jd].[sum:Main Story:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.01rn30a0tc08it16bm4yz0yni6jd].[sum:Main + Sides:qk]' palette='tableau-map-blue-green' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.01rn30a0tc08it16bm4yz0yni6jd].[sum:Main + Sides:qk]' />
+              <text column='[federated.01rn30a0tc08it16bm4yz0yni6jd].[sum:Main Story:qk]' />
+              <text column='[federated.01rn30a0tc08it16bm4yz0yni6jd].[sum:Main + Sides:qk]' />
+              <text column='[federated.01rn30a0tc08it16bm4yz0yni6jd].[sum:HLTB:qk]' />
+              <text column='[federated.01rn30a0tc08it16bm4yz0yni6jd].[sum:Completionist:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.01rn30a0tc08it16bm4yz0yni6jd].[none:Game Title:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{5AA04225-7D0F-4667-AF3E-B237631FC183}' />
+    </worksheet>
+    <worksheet name='How Long To Beat'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>How Long To Beat&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='favorite_games_hltb' name='federated.01rn30a0tc08it16bm4yz0yni6jd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01rn30a0tc08it16bm4yz0yni6jd'>
+            <column datatype='real' name='[Completionist]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Game Title]' role='dimension' type='nominal' />
+            <column caption='Hltb' datatype='real' name='[HLTB]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Main + Sides]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Main Story]' role='measure' type='quantitative' />
+            <column caption='App Id' datatype='integer' name='[app_id]' role='dimension' type='ordinal' />
+            <column-instance column='[Game Title]' derivation='None' name='[none:Game Title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[app_id]' derivation='None' name='[none:app_id:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Completionist]' derivation='Sum' name='[sum:Completionist:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[HLTB]' derivation='Sum' name='[sum:HLTB:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Main + Sides]' derivation='Sum' name='[sum:Main + Sides:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Main Story]' derivation='Sum' name='[sum:Main Story:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.01rn30a0tc08it16bm4yz0yni6jd].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.01rn30a0tc08it16bm4yz0yni6jd].[sum:Completionist:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.01rn30a0tc08it16bm4yz0yni6jd].[sum:HLTB:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.01rn30a0tc08it16bm4yz0yni6jd].[sum:Main + Sides:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.01rn30a0tc08it16bm4yz0yni6jd].[sum:Main Story:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.01rn30a0tc08it16bm4yz0yni6jd].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.01rn30a0tc08it16bm4yz0yni6jd].[:Measure Names]' />
+              <text column='[federated.01rn30a0tc08it16bm4yz0yni6jd].[none:app_id:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.01rn30a0tc08it16bm4yz0yni6jd].[Multiple Values]</rows>
+        <cols>([federated.01rn30a0tc08it16bm4yz0yni6jd].[none:Game Title:nk] / [federated.01rn30a0tc08it16bm4yz0yni6jd].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{9487D418-889C-4B7D-A836-1F9C9A0166AB}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Negative and Positive Review Bar Chart</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SteamDB_TopFiveGames' name='federated.1r4zgve1n3c27t1f43rri1j7lp6p' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1r4zgve1n3c27t1f43rri1j7lp6p'>
+            <column caption='Negative reviews' datatype='real' name='[Negative_reviews]' role='measure' type='quantitative' />
+            <column caption='Positive reviews' datatype='real' name='[Positive_reviews]' role='measure' type='quantitative' />
+            <column caption='App Id' datatype='integer' name='[app_id]' role='dimension' type='ordinal' />
+            <column caption='Game Name' datatype='string' name='[game_name]' role='dimension' type='nominal' />
+            <column-instance column='[app_id]' derivation='None' name='[none:app_id:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[game_name]' derivation='None' name='[none:game_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Negative_reviews]' derivation='Sum' name='[sum:Negative_reviews:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Positive_reviews]' derivation='Sum' name='[sum:Positive_reviews:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[none:app_id:ok]' direction='DESC' measure-to-sort-by='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:Negative_reviews:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:Positive_reviews:qk]' field-type='quantitative' fold='true' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[none:game_name:nk]' value='277' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[none:app_id:ok]' />
+              <color column='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:Negative_reviews:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[none:app_id:ok]' />
+              <color column='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:Positive_reviews:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[none:app_id:ok]' />
+              <color column='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1r4zgve1n3c27t1f43rri1j7lp6p].[none:app_id:ok] / [federated.1r4zgve1n3c27t1f43rri1j7lp6p].[none:game_name:nk])</rows>
+        <cols>([federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:Negative_reviews:qk] + [federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:Positive_reviews:qk])</cols>
+      </table>
+      <simple-id uuid='{DF3D7B19-EF93-4B35-9933-4791F6816994}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Pie Chart</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SteamDB_TopFiveGames' name='federated.1r4zgve1n3c27t1f43rri1j7lp6p' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1r4zgve1n3c27t1f43rri1j7lp6p'>
+            <column caption='Negative reviews' datatype='real' name='[Negative_reviews]' role='measure' type='quantitative' />
+            <column caption='Positive reviews' datatype='real' name='[Positive_reviews]' role='measure' type='quantitative' />
+            <column caption='Game Name' datatype='string' name='[game_name]' role='dimension' type='nominal' />
+            <column-instance column='[game_name]' derivation='None' name='[none:game_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Negative_reviews]' derivation='Sum' name='[sum:Negative_reviews:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Positive_reviews]' derivation='Sum' name='[sum:Positive_reviews:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[none:game_name:nk]' />
+              <wedge-size column='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:Negative_reviews:qk]' />
+              <size column='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:Positive_reviews:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D6631F32-FB69-48B9-979F-496FDE28C3AD}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98726' id='7' param='horz' type-v2='layout-flow' w='99318' x='341' y='637'>
+            <zone h='98726' id='5' type-v2='layout-basic' w='90506' x='341' y='637'>
+              <zone h='98726' id='3' name='How Long To Beat' w='43148' x='341' y='637'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='60747' id='9' name='Detailed of HLTB' w='10107' x='43489' y='637'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='60747' id='11' name='All Time &amp; 24 Peak' w='37251' x='53596' y='637'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='18989' id='13' name='Sheet 4' w='47358' x='43489' y='61384'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='18990' id='15' name='Sheet 5' w='47358' x='43489' y='80373'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='207' h='98726' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='8812' x='90847' y='637'>
+              <zone h='8440' id='8' name='How Long To Beat' pane-specification-id='0' param='[federated.01rn30a0tc08it16bm4yz0yni6jd].[:Measure Names]' type-v2='color' w='8812' x='90847' y='637'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='5175' id='10' name='Detailed of HLTB' pane-specification-id='0' param='[federated.01rn30a0tc08it16bm4yz0yni6jd].[sum:Main + Sides:qk]' type-v2='color' w='8812' x='90847' y='9077'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='5175' id='12' name='All Time &amp; 24 Peak' pane-specification-id='0' param='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:24-hour peak:qk]' type-v2='color' w='8812' x='90847' y='14252'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='17994' id='14' name='Sheet 4' pane-specification-id='7' param='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[none:app_id:ok]&#10;[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[:Measure Names]' type-v2='color' w='8812' x='90847' y='19427'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='10032' id='16' name='Sheet 5' pane-specification-id='0' param='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[none:game_name:nk]' type-v2='color' w='8812' x='90847' y='37421'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='3662' id='17' name='Sheet 5' pane-specification-id='0' param='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:Positive_reviews:qk]' type-v2='size' w='8812' x='90847' y='47453'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98726' id='18' param='vert' type-v2='layout-flow' w='99318' x='341' y='637'>
+                <zone fixed-size='280' h='98726' id='3' is-fixed='true' name='How Long To Beat' w='43148' x='341' y='637'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8440' id='8' name='How Long To Beat' pane-specification-id='0' param='[federated.01rn30a0tc08it16bm4yz0yni6jd].[:Measure Names]' type-v2='color' w='8812' x='90847' y='637'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='60747' id='9' is-fixed='true' name='Detailed of HLTB' w='10107' x='43489' y='637'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5175' id='10' name='Detailed of HLTB' pane-specification-id='0' param='[federated.01rn30a0tc08it16bm4yz0yni6jd].[sum:Main + Sides:qk]' type-v2='color' w='8812' x='90847' y='9077'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='60747' id='11' is-fixed='true' name='All Time &amp; 24 Peak' w='37251' x='53596' y='637'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5175' id='12' name='All Time &amp; 24 Peak' pane-specification-id='0' param='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:24-hour peak:qk]' type-v2='color' w='8812' x='90847' y='14252'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='144' h='18989' id='13' is-fixed='true' name='Sheet 4' w='47358' x='43489' y='61384'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='17994' id='14' name='Sheet 4' pane-specification-id='7' param='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[none:app_id:ok]&#10;[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[:Measure Names]' type-v2='color' w='8812' x='90847' y='19427'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='144' h='18990' id='15' is-fixed='true' name='Sheet 5' w='47358' x='43489' y='80373'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10032' id='16' name='Sheet 5' pane-specification-id='0' param='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[none:game_name:nk]' type-v2='color' w='8812' x='90847' y='37421'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3662' id='17' name='Sheet 5' pane-specification-id='0' param='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:Positive_reviews:qk]' type-v2='size' w='8812' x='90847' y='47453'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{7AA3CE53-B07D-42C1-90C9-6236F53A79A8}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='72'>
+    <window class='worksheet' name='How Long To Beat'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.01rn30a0tc08it16bm4yz0yni6jd].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5A8561E4-8BD3-42CE-AB9D-54EFCEEA3D6E}' />
+    </window>
+    <window class='worksheet' name='Detailed of HLTB'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.01rn30a0tc08it16bm4yz0yni6jd].[sum:Main + Sides:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DDE8C552-7B9C-47AD-B04D-B6FC3E10D15C}' />
+    </window>
+    <window class='worksheet' name='All Time &amp; 24 Peak'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:24-hour peak:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1B274AFD-9FE7-428D-8C0B-F1908B80876C}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='7' param='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[none:app_id:ok]&#10;[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3DD912B2-155C-4377-85E6-2304A629B3AA}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[none:game_name:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1r4zgve1n3c27t1f43rri1j7lp6p].[sum:Positive_reviews:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2A0F866A-0D26-4F6D-A45F-D483B8988D2E}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='All Time &amp; 24 Peak'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Detailed of HLTB'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='How Long To Beat'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 4' />
+        <viewpoint name='Sheet 5'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='11' />
+      <simple-id uuid='{F113379D-FA76-4B6F-880C-54D1E71CEA79}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAPIklEQVR4nO3dS3Mb15nG8X83unFrAAQIXkVRFHUx44tMuzKxY9XEk2yySM3ULLzNfuYj
+      zEeYjzCzz3oWWUxVMnYqdmV8GVqWFUuypIgiBYoSSAIg7tfuc2Yhy6FiyQRkghec91fFBclG
+      99sgH3Sf7hcHltZaI4Sh7KMuQIijJAEQRpMACKNJAITRJADCaE8FYHV1FYDt+6vUevs9VHPv
+      m+X7o7lz4xq/+93vWfny+nd+e+f6l3zyySd88dWt566hvFseYHtC7M/Z+00ut8758+cpPMgx
+      PnWWrz7+kI4dZ/nCDKTn+cu1Fd56601yGyUWFma4v77OufPnqe1ssnJjlYnpOZKhNvlChXAi
+      w+JknFvreSJegh+//iovvbrMTvVTfvLGa6zducFGfoezF1/nzOw4pUqLn17+KR+8/wGNuTGu
+      3rpPdmqW8aji/maeqdNn+fSD93n1Jz/l0ssXj+r5EiPmqSOA36rx0UcfcfX6beqbN4gt/JjX
+      Tzk8aNl8fe0LCrn7XLlylZ6Xfmolf751j1/8/F2qhYfkS2XeuXyZbrPE9bsbXH7nLXqNv33l
+      1mxu7fKzn/0Dubs3AWhWC/zxD/9Dz46x8vkVAr/LV19dx/d97JDL7Tv3OHv+gvzziwP1VACc
+      WJJ3332XN19bIp6d48HNFT7/epP52dPkbqzw9j/+E5+tXOf8RAyAYv4Bn366QioV5bP/u0K9
+      o55aeTYR5n8//oxitfndDas2X1xZwY6NAWBZNtF4kmajwqmZGdxIjFde+RG37vwF2wIsC4IW
+      N27fG9JTIUxkfd+dYL/XQeEQdkP7rEbTarWJRmNY1l9/uvVgjXsbDwlsj79/+42nH6E17Xab
+      WCz2zDUGvo8dckAr/CDAdV201gSBwnH2q0eI/nxvAIQYdXIZVBjtQALg+/5BrEaIQ3cgAWi1
+      WgexGiEOnbP/ImKUNXbzXLm+ysuXXifm2sSjUTrdDlghUD5uOMIf/vu3zPzoEhNRBx1OUi6W
+      OHt2jrjnYe2/iWPtQAbBtVqNZDJ5EPWIQ3bj4z/hnpqmki/w5y+vkpo7h27WiKcStCoFzr38
+      FuH6LnNvXuDz9z8kSM4TbW/xYLvMW7/4FUtnske9Cz+IBMBw3UaZz65cYyKbpVSpMD49T8K1
+      0ShKO3lOnXkJ3aqTmh2n8GiHQqnG+JjH1tYWL732BulE9Kh34QeRAAxIa41SilBo9O9FmLCv
+      chl0QFprYwb9Sina7fZRlzFUJ2YQXNzJE1gRMikP1SrRCE+TCPk4jo3WXeoNi3jUxnHDT92N
+      PkkapQI7zSbZ8Vm8aAitNbZto5R63AkSKCw7hIWm26hjeQlcOFav0O1KgYeVFpMTU0QcG9cN
+      USiUSCdcco/KZCcniUccXNdB6cevwMVSiailKTRbTE7O4obAdUIUiiXSqRSO6357qT0UsgmU
+      ptGoEw5HiIZdFBaWVmA7tOoVSuU6p8+c7uvV/cQEoNnucnpuips3rhHGpx5q4uITCyvcSIhm
+      M0bQ3SGVPc38qcmjLveF+K0mrV6PjfVVJjJJcvfvE8vO4doBDopOt0c8Fqa6WyToRph6aY7i
+      +j2yc69waipx1OUD4Hfa7FbrqE6LTlcRiUewsUnFPdITM2yvXadpR0nGPEqVMpPpFDgOoZBF
+      pV6n11qn6yuicRcrUGzlHxK1Nc3AJeSEcSI2IaDbbuJGPVxLo1AEXUXUSzKZ8VCW1ffVqRMT
+      gEQ8Sr5QIpPJEou6jFkxOp0OiaiNwiZk97B0luTY8fhHeBGRVIYLySTtWo2wpZmcmYGQQ7FU
+      4+L5BdCg/DZYDl4kRq8XkBqfxosdnz9jODHGkpemUWsQ8RWRsEVP2YScKMWHm8wuXqS0WyEa
+      CeOEHaKOhQ5FiMUinM+kqdea+AGEQ4pA20QiEbx4FCv0eLC9XcgT99Kk4lFwozjax8cmFnn8
+      +0p1FwLQ0FcIvh0Ea62p1+svtNPNZpN4PP5Cjz1plFJ0Op3nNvEd+PYCn56CiHv4/+RBENDr
+      9YhGj8+VniAIDvSU79tn1bKsH3Qlx5SrQE+uiiQSJ/dI068gCGi323ied9SlDI1cBRJGkwAI
+      o0kAhNEkAMJoEgBhNAmAMJoEQBhNAiCM1vftRb/bIv9og1o3ghV08TyXjm9xYXFhmPUJMVR9
+      B8DSiraKkYxZOEGEpmUTDimUevxlyhvjn/TIm7C/QRCM/L72HQClwNI9xsYmabR7TEcdusrC
+      tm1s28Zxjk9D1jAppYzZX8uy8H1/pPdV3hE2IKUUzWbTmF6gVqtFLpfjwoULrK+v43kem5ub
+      LC8vs7GxQa/XY3Fxkdu3bzM7O8vDhw9ZXl7GOiFvypBBsNhXr/d4rvxut8upU6cIhULcvHmT
+      YrGIUopyuczGxgYrKyuk02lKpdIRV9w/CYD4XkopisUihUKB7e1t8vk88/PzWJZFqVSiUqmw
+      s7NDOp0mk8mQy+VO1NmAnAINyLRToFFvhx7d0Y04MF/f3+E3v/+qr2VfXpjg1798fcgVHRwJ
+      gNhXtdHh+tp2X8t6UXfI1RwsGQMIo0kAhNEkAMJofY8BtA7IbxUYS8TYrbVIxhzagc1UNjPM
+      +oQYqv4HwUoTKEW1UqG4vYs/ncUOFCozNvL9InuZ2AuklNp/4W9orU/UczPQEaBRqzI9PU0i
+      o3GVoqulF2iUPekFsu3+z5QtyzpRz03fldpOhKWlJQDS6fQ+SwtxMsggWBhNAiCMJgEQRpMA
+      CKNJAITRJADCaBIAYTQJgDCaBEAYrf9pUfwu6w+2yCQjlKttvPjjibHm52aGWZ8QQzVAK0SY
+      WMSl027TaDQIRVJYKpCJsUaYNMPtofwO7XYLLx4nkbSIuy49JyzNcCNMmuH2sJ0Ii4uLw6xF
+      iEMng2BhNAmAMJoEQBhNAiCMJgEQRpMACKNJAITRJADCaAPdsut2uwS9DpVai0wmQce3SXnR
+      YdUmxNAN1Ay3upZj6eIire0CvV4HrRWJ2LwxvTEgvUD7GdleIND43RbtVgMnkiToVOgGSC/Q
+      CJNeoD1sJ8KlS5cAiHugdZYf/NEyQhyxF46qZVmcjM8BFOL55CqQMJoEQBhNAiCMJgEQRpMA
+      CKNJAITRJADCaBIAYbSBJ8aayniUmz5RO6AlE2OJE27gibEKxQJ+z8ZPxgjJxFgjTZrh9ngy
+      MdbYWJZqvUVCJsY66lKGTprh9tg7MdZ4dmj1CHGoZBAsjCYBEEaTAAijSQCE0SQAwmgSAGE0
+      CYAwmgRAGE0CIIw2UDPcnXsbpBMRfFysoEXLt7iwuDDM+oQYqoGa4caSHkkvyt21B6SzacIh
+      Jc1wI0ya4fZQfgelArq+YnJmmrF4hK6ypBluhEkz3B62E2Fubg6AzDc/84ZRkRCHSAbBwmgS
+      AGE0CYAwmgRAGE0CIIwmARBGkwAIo0kAhNH6DoDWAY/yW6A1+XyearnIdnF3mLUJMXT937NW
+      mkApqrs7bBcrTGQSBIFCZcaM6Y0B6QXaz8j2Amkd0KhVca0UfrtBz4+jkV6gUSa9QHvYToSl
+      pSUApmdnh1aQEIdJBsHCaBIAYTQJgDCaBEAYTQIgjCYBEEaTAAijSQCE0SQAwmgDT4x19vQU
+      q2ubpFJROjIxljjhBp4YKxyOYKsA33JkYqwRJ81wezyZGGu3UiU1MUE6EZOJsUacNMPtsXdi
+      rCdkYixx0skgWBhNAiCMJgEQRpMACKNJAITRJADCaBIAYTQJgDDaQAHodrto5bNbrtDrNKk2
+      2sOqS4hDMVAz3OpajoXTs+wWC1TDYSytSMTmjemNAekF2s/I9gKBxu+22HqYo9KyGLPBD5Be
+      oBEmvUB72E6ES5cuffu91ho9lJKEODwvHFXLsrAOshIhjoBcBRJGkwAIo0kAhNEkAMJoEgBh
+      NAmAMJoEQBhNAiCMNlAv0PqDLeam0uxUWkTtgJZvMT83M8z6hBiqgSbGikVcIvEEoUqdbqBA
+      BTIx1giTZrg9lN+h3W5RqVRpt7skvBiWE5ZmuBEmzXB72E6ExcVFAMbGxoZWkBCH6bnRrpd3
+      WNt4JB2fYqQ9NwBXr37JB7/9L6rBYZYjxOF67inQucUF6l2HeOgwyxHicD33CGDZDm7QoS1H
+      ADHCnhmAZnmHu+sPCCfSROUIIEbYMwMQT0/ihrrcunqNlhwBxAh7ZgCCdg1lxfnle/9MSo4A
+      YoQ9MwBWyMFGs/Knj5GZf8Qoe/ZVIMvh795+h3cu/zUfWgfktwqMpzx2yg1ScYd2YDOVzRxW
+      rUIcuGcGwHbc7x4alCZQimK5QjhQFJs+TqBQmTFjemNAeoH2M7K9QFoHNGpVkgmPcsfHizr0
+      tHxI3iiTXqA9bCfC0tLSMGsR4tDJG2KE0SQAwmgSAGE0CYAwmgRAGE0CIIwmARBGkwAIo0kA
+      hNEGvme9W9xht9YiFXNlYixx4g0cAK0V9XKFUHgcWybGGmnSDPcM8Xic8ekpYo5FVybGGmnS
+      DPcM0XiS0/HkMGoR4tCdnKgKo2xtbWHbNtVqlcnJSVZXV5mYmKDZbDIzM0O5XMayLJRStNtt
+      stksk5OTA29HrgKJY8nzPMrlMuFwmE6nQzqdptPpcOPGDRzHoV6vk8vluHv3LkopNjY2Xmg7
+      cgQQx1KlUqFQKJBIJIhEIiilyGazaK3Z2tpiZ2eHWCyG67pUKhXS6fQLbUcCII6lubk55ubm
+      vvPz9957D4Bz584dyHYkAOLYKv7Hf+Jvb/e1bPZf/wVnamrgbUgAxLHVvXePXq6/c3vV7rzQ
+      NmQQLIwmRwAxNNVqlbW1NSYmJuh0OvR6PcrlMmNjY4TDYQqFAlNTU2xvb5NIJOj1eiwvLx9q
+      jQMfAXTQY7dcpddpUm3IvHHi+VKpFI7jMD09TbfbJZvNkkql+PDDD3n06BGe51Gr1SiVSjSb
+      TYLg8CeiHfgIkH+0Sb7YIDueAq1IxOaN6Y0B6QXaz95eoFqtRqVSYXNzk1qtRiwW4+LFi5w5
+      c4ZSqUQul2N8fJxMJkMikSAIgqeeVz3AxxOpv3lsvwYOgO8roiGLjt9FB0gv0Aj7ob1AmUyG
+      y5cvA7CwsPDtMo7j4Hke8/Pz+6yr/1rtUOiF/iYDP+L0wiJaayzLks8PE/tq//Hf6V39TV/L
+      Rn7+b4Tf/PWQK3rawAGwLAvrm2gOEFAhjiW5DCqMJgEQRpMACKNJAITR/h/mkUmij4uwMAAA
+      AABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
