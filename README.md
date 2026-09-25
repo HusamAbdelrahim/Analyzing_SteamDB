@@ -12,7 +12,7 @@ In this project I decided that I reviewing a few metrics that I will be analyzin
   <tr>
     <td><img src="Images/csheader.jpg" width="260"></td>
     <td><img src="Images/dota2header.jpg" width="260"></td>
-    <td><img src="palworldheader.jpg" width="260"></td>
+    <td><img src="Images/palworldheader.jpg" width="260"></td>
   </tr>
   <tr>
     <td><img src="Images/pubgheader.jpg" width="260"></td>
