@@ -122,7 +122,7 @@ Now let's review other metrics that is presened.
 
 ---
 
-### Second Mertric
+## Second Mertric
 
 The second analysis we will be reviewing is more on <mark>Single Player Analysis</mark>
 
@@ -191,4 +191,61 @@ The negative reivews comes from different metrics like
 <img src="Images/SPReviews.png" width="800">
 <img src="Images/SPPeak.png" width="800">
 
+Now does this relatively mean that Single Player games not being the best option to retain players? <mark>No</mark>
+
+There are many ways single player games continue and that continuing dropping <mark>Updates</mark>,<mark>Nods</mark>, or <mark>Expansions</mark>
+
+---
+
+## Third Metric
+
+For the third metric, It was more about **HLTB: How Long To Beat**
+
+<img src="Images/howlongtobeatwebsite.png" width="800">
+
+This website displays different metrics of different games and show a highly detail metrics of how long it will beat this game.
+
+For this section I decided to review a few games that would make sense.
+
+```python
+favoriteGameshltb = [
+    [1174180, "Red Dead Redemption 2", "Rockstar Games", 79 , 50.5, 84.5, 195],
+    [292030, "Witcher 3", "CD Projekt Red", 104, 51.5, 103, 175],
+    [3357650, "Pragmata", "Capcom Co., LTC.", 15.5, 12, 16, 25.5],
+    [504230, "Celeste", "Maddy Makes Games", 13, 8.5, 14.5, 39]
+]
+```
+This section will be display:
+
+- All Styles
+- Main Story
+- Main + Sides
+- Completionist
+
+| Game | Developer | All Styles | Main Story | Main + Sides | Completionist |
+|---|---|---:|---:|---:|---:|
+| Red Dead Redemption 2 | Rockstar Games | 79 hrs | 50.5 hrs | 84.5 hrs | 195 hrs |
+| The Witcher 3 | CD Projekt Red | 104 hrs | 51.5 hrs | 103 hrs | 175 hrs |
+| Pragmata | Capcom Co., Ltd. | 15.5 hrs | 12 hrs | 16 hrs | 25.5 hrs |
+| Celeste | Maddy Makes Games | 13 hrs | 8.5 hrs | 14.5 hrs | 39 hrs |
+
+By looking at this metric that is provided.
+
+I decided to get two <mark>Open World Games</mark> & <mark>Linear games</mark>
+
+<img src="Images/hltb.png" width="800">
+
+Open world Games can take much longer times as it often requires and encourgaes more exploration and time with the game, ways to actually level your character.
+
+While games that are linear are much more faster to finish, taking on more challenge will increase the time to it.
+
+For example games like Celeste will take about <mark>4.6</mark> from it's main story which is <mark>8.5</mark> to finish. which shows how much extra there will be.
+
+---
+
+## Key Insights
+
+---
+
+## Analysis
 
