@@ -188,7 +188,7 @@ The negative reivews comes from different metrics like
 - Bugs on release
 - Not fun to play or other unknown reasons
 
-<img src="Images/SPReviews.png" width="300">
+<img src="Images/SPReviews.png" width="800">
 <img src="Images/SPPeak.png.png" width="300">
 
 
