@@ -114,7 +114,7 @@ plt.legend()
 plt.show()
 ```
 
-<img src="Images/SteamGraph1.png" width="300">
+<img src="Images/top5bar.png" width="800">
 
 But looking at this graph carefully you can see that competitive/long service games tend to have a much larger impact. **PUBG: Battlegrounds** showing a huge metric of **negative reviews**. while games like **Palworld** & **Bongo Cat** are much lower negative reviews which means players are more content on playing games on their own pace.
 
