@@ -17,6 +17,5 @@ In this project I decided that I reviewing a few metrics that I will be analyzin
   <tr>
     <td><img src="Images/pubgheader.jpg" width="260"></td>
     <td><img src="Images/bongocatheader.jpg" width="260"></td>
-    <td></td>
   </tr>
 </table>
