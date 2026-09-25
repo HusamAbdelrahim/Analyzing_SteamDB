@@ -51,9 +51,9 @@ Look at games like Counter-Strike 2 the **24 Hour Peak** & **All Time Peak** It 
 
 However, there is a huge difference
 
-'''python
-df_caluclation2 = df ["Peak %"] = (df["24-hour peak"] / df ["all-time peak"] * 100).round(1)
-'''
+```python
+df["Peak %"] = (df["24-hour peak"] / df["all-time peak"] * 100).round(1)
+```
 
 By doing this calculation, this is going give the percent of 24-hour and all time peak.
 
