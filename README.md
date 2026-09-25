@@ -114,11 +114,13 @@ plt.legend()
 plt.show()
 ```
 
-<img src = "Images/SteamGraph1.png> Width = 300">
+<img src="Images/SteamGraph1.png" width="300">
 
 But looking at this graph carefully you can see that competitive/long service games tend to have a much larger impact. **PUBG: Battlegrounds** showing a huge metric of **negative reviews**. while games like **Palworld** & **Bongo Cat** are much lower negative reviews which means players are more content on playing games on their own pace.
 
 Now let's review other metrics that is presened.
+
+---
 
 ### Second Mertric
 
@@ -137,4 +139,56 @@ The second analysis we will be reviewing is more on <mark>Single Player Analysis
     <td><img src="Images/bg3header.jpg" width="260"></td>
   </tr>
 </table>
+
+```python
+singlePlayer_analysis = [
+    [2358720, "Black Myth: Wukong", "Game Science", 2024, 2415714, 45568, 96.5, 3.5],
+    [1091500, "Cyberpunk 2077", "CD PROJEKT RED", 2020, 1054388, 47975, 86.4, 13.6],
+    [1245620, "Elden Ring","FromSoftware, Inc." , 2022, 956426, 34201, 93.1, 6.9],
+    [990080, "Hogwarts Legacy", "Avalanche Software", 2023, 879308, 5782, 89.8, 10.2],
+    [1086940, "Baldur's Gate 3", "Larian Studios", 2023, 875343, 58487, 96.8, 3.2],
+
+    [1030300,"Hollow Knight: Silksong", "Team Cherry", 2025, 587150, 10340, 89.5, 10.5],
+    [3764200, "Resident Evil Requiem", "CAPCOM Co., Ltd.", 2026, 344214, 3630, 96.0, 4.0]
+]
+```
+
+| Game | 24-Hour Peak | All-Time Peak | Difference | Peak % | Below Peak % | Positive Reviews |
+|---|---:|---:|---:|---:|---:|---:|
+| Black Myth: Wukong | 45,568 | 2,415,714 | 2,370,146 | 1.9% | 98.1% | 96.5% |
+| Cyberpunk 2077 | 47,975 | 1,054,388 | 1,006,413 | 4.6% | 95.4% | 86.4% |
+| Elden Ring | 34,201 | 956,426 | 922,225 | 3.6% | 96.4% | 93.1% |
+| Hogwarts Legacy | 5,782 | 879,308 | 873,526 | 0.7% | 99.3% | 89.8% |
+| Baldur's Gate 3 | 58,487 | 875,343 | 816,856 | 6.7% | 93.3% | 96.8% |
+| Hollow Knight: Silksong | 10,340 | 587,150 | 576,810 | 1.8% | 98.2% | 89.5% |
+| Resident Evil Requiem | 3,630 | 344,214 | 340,584 | 1.1% | 98.9% | 96.0% |
+
+Review the data sets that is being presented in this work.
+
+We can see that there is a huge difference when it comes down to the metric
+
+**Multiplayer games** continue to have this ability to contain a large player base, yes even thoug the negative reviews are being presented, that doesn't change the fact that it will perform worse since the:
+
+- Player base
+- Community
+
+Are the two factors that keep this high engagement that makes games thrive and succeed. 
+
+**Single Player** will outperform multiplayer if they are well polished and actually has a good amount of content to play in,
+
+but it varies.
+
+By using the same calculation previously the game will have it's **all time peak** but <mark>WILL DROP SIGNIFICANTLY</mark> once the days goes on.
+
+If we compare the single player game metrics to live service/online competitive games when it comes to reviews it really shows a huge difference.
+
+The negative reivews comes from different metrics like
+
+- Difficulty of the game
+- Bugs on release
+- Not fun to play or other unknown reasons
+
+<img src="Images/SPReviews.png" width="300">
+<img src="Images/SPPeak.png.png" width="300">
+
 
