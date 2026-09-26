@@ -131,12 +131,12 @@ The second analysis we will be reviewing is more on <mark>Single Player Analysis
     <td><img src="Images/eldenringheader.jpg" width="260"></td>
     <td><img src="Images/requiemheader.jpg" width="260"></td>
     <td><img src="Images/blackmythheader.jpg" width="260"></td>
+    <td><img src="Images/bg3header.jpg" width="260"></td>
   </tr>
   <tr>
     <td><img src="Images/silksongheader.jpg" width="260"></td>
     <td><img src="Images/cyberpunkheader.jpg" width="260"></td>
     <td><img src="Images/hogwartslegacyheader.jpg" width="260"></td>
-    <td><img src="Images/bg3header.jpg" width="260"></td>
   </tr>
 </table>
 
